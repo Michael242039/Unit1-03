@@ -1,0 +1,162 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{83, 26}, {90, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "7B3ED597-0BBD-41F6-93EB-771FEBA9A7D4",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "length_text",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{83, 66}, {90, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "747964B2-8E92-445A-87F9-6D7CE9317B2C",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "width_text",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{0, 26}, {75, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "DD4C441A-C70B-4D0C-8A20-9BC8D2FD9826",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "length",
+          "name" : "label1",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{0, 66}, {75, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "924C8960-BC2E-4CE0-A83A-BE39C62D6169",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "width",
+          "name" : "label2",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{181, 33}, {80, 56}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "73BF19E5-D197-4E98-A1EB-F9190F0D394F",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 3,
+          "name" : "calculate_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{269, 26}, {271, 31}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "16BD0663-C582-4441-8BAF-56854D9BAFF6",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "area:",
+          "name" : "area_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{269, 72}, {271, 31}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "976D383F-87D5-47B6-BE87-13A620030F7D",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "perimeter:",
+          "name" : "perimeter_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{181, 200}, {200, 200}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "corner_radius" : 0,
+          "frame" : "{{220, 220}, {100, 100}}",
+          "uuid" : "03E36EDB-1C84-474B-84C2-0D39FD33D818",
+          "class" : "View",
+          "name" : "box",
+          "border_width" : 5
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
